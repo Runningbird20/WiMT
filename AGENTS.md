@@ -1,4 +1,4 @@
-# WiMT project instructions
+# ViMT project instructions
 
 These instructions apply to the entire project.
 
