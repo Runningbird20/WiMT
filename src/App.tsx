@@ -195,28 +195,27 @@ function App() {
             <h1>{view.page === 'Home' ? 'Welcome to ViMT!' : view.page}</h1>
             <div className="record-copy">
               {view.page === 'Home' && (<>
-                <article className="record-section"><h2>All are welcome</h2><p>We support underrepresented voices in music technology. All are welcome!</p><h3>Our mission</h3><p>Identify, connect, and support underrepresented voices in music technology.</p></article>
-                <article className="record-section"><h2>Share your achievements</h2><p>We highlight community achievements at every club meeting. Contact <a href="#members">Jalyn or Dion</a> to learn more.</p><p>Get involved at our <a href="#events">events</a>. We look forward to seeing you!</p></article>
+                <article className="record-section"><h2>All are welcome</h2><p>We support underrepresented voices in music technology. All are welcome!</p></article>
+                <article className="record-section"><h2>Our mission</h2><p>Identify, connect, and support underrepresented voices in music technology.</p></article>
                 <article className="record-section"><h2>Join the crew</h2><p>Help with logistics or design. Fill out the <a href="https://forms.cloud.microsoft/r/RKWu2n6y9j">ViMT Interest form</a> and we’ll contact you with more information.</p></article>
-                <article className="record-section"><h2>Stay connected</h2><p className="social-links"><a href="https://www.instagram.com/vimt_gt/">Our Instagram ↗</a><a href="mailto:vimt.gt@outlook.com">vimt.gt@outlook.com</a></p></article>
+                <article className="record-section"><h2>Share your achievements</h2><p>We highlight community achievements at every club meeting. Contact <a href="#members">Jalyn or Dion</a> to learn more.</p><p>Get involved at our <a href="#events">events</a>. We look forward to seeing you!</p></article>
               </>)}
               {view.page === 'Events' && (<>
-                <article className="record-section"><h2>Kickoff Karaoke Mixer</h2><p>Saturday, September 26</p><p>Time &amp; location: Coming soon</p></article>
-                <article className="record-section"><h2>October Monthly Meeting</h2><p>Date, time &amp; location: Coming soon</p><p>Meeting details: Coming soon</p></article>
-                <article className="record-section"><h2>Monthly meetings</h2><p>Recurring meeting week: Coming soon</p><p>We look forward to seeing you at our events!</p></article>
-                <article className="record-section"><h2>Make it happen</h2><p>Interested in cohosting an event? Contact <a href="#members">Jalyn or Dion</a>.</p><p>Join our logistics or design crew through the <a href="https://forms.cloud.microsoft/r/RKWu2n6y9j">ViMT Interest form</a>.</p></article>
+                <article className="record-section events-meeting"><h2>Monthly meetings</h2><p>Recurring meeting week: Coming soon</p><p>We look forward to seeing you at our events!</p></article>
+                <article className="record-section events-karaoke"><h2>Kickoff Karaoke Mixer</h2><p>Saturday, September 26</p><p>Time &amp; location: Coming soon</p></article>
+                <article className="record-section events-cohost"><h2>Cohost an event</h2><p>Help us reach more people. To cohost an event, contact <a href="#members">Jalyn (she/her)</a>, our President, or <a href="#members">Dion (she/they)</a>, our Vice President and Logistics Chair.</p></article>
               </>)}
               {view.page === 'Members' && (<>
                 <article className="record-section"><h2>Jalyn <span>she/her</span></h2><h3>President</h3><p><a href="mailto:jfisher79@gatech.edu">jfisher79@gatech.edu</a></p></article>
                 <article className="record-section"><h2>Dion <span>she/they</span></h2><h3>Vice President &amp; Logistics Chair</h3><p><a href="mailto:ebackus6@gatech.edu">ebackus6@gatech.edu</a></p></article>
                 <article className="record-section"><h2>Community achievements</h2><p>We highlight achievements at each club meeting. Contact Jalyn or Dion to learn more or share yours.</p></article>
-                <article className="record-section"><h2>Meet the community</h2><p>More member profiles: Coming soon</p><p>All are welcome!</p></article>
+                <article className="record-section"><h2>Meet the community</h2><p>More member profiles: Coming soon</p></article>
               </>)}
               {view.page === 'Contact' && (<>
-                <article className="record-section"><h2>Cohost an event</h2><p>Help us reach more people. To cohost an event, contact Jalyn (she/her), our President, or Dion (she/they), our Vice President and Logistics Chair.</p></article>
+                <article className="record-section"><h2>Cohost an event</h2><p>Help us reach more people. To cohost an event, contact Jalyn, our President, or Dion, our Vice President and Logistics Chair.</p></article>
                 <article className="record-section"><h2>Contact the team</h2><p>Jalyn: <a href="mailto:jfisher79@gatech.edu">jfisher79@gatech.edu</a></p><p>Dion: <a href="mailto:ebackus6@gatech.edu">ebackus6@gatech.edu</a></p></article>
                 <article className="record-section"><h2>Join the crew</h2><p>Help with logistics or design. Fill out the <a href="https://forms.cloud.microsoft/r/RKWu2n6y9j">ViMT Interest form</a> and we’ll contact you with more information.</p></article>
-                <article className="record-section"><h2>Stay connected</h2><p className="social-links"><a href="https://www.instagram.com/vimt_gt/">Our Instagram ↗</a><a href="mailto:vimt.gt@outlook.com">vimt.gt@outlook.com</a></p></article>
+                <article className="record-section"><h2>Stay connected</h2><p className="social-links"><a href="https://www.instagram.com/vimt_gt/">Our Instagram ↗</a><a href="mailto:vimt.gt@outlook.com">vimt.gt@outlook.com</a></p><p className="social-discord"><a href="https://discord.gg/zzADyNcDEp" target="_blank" rel="noreferrer">Our Discord ↗</a></p></article>
               </>)}
             </div>
           </section>

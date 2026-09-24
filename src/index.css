@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Adlery Pro';
+  src:
+    local('Adlery Pro'),
+    local('Adlery'),
+    url('/fonts/Adlery_TRIAL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adlery';
+  src:
+    local('Adlery Pro'),
+    local('Adlery'),
+    url('/fonts/Adlery_TRIAL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --page-blue: #bedcef;
   --brand-gold: #ffc364;
